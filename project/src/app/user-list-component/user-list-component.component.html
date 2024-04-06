@@ -1,0 +1,6 @@
+<ul *ngFor="let list of userList">
+    <li>{{list.name}}</li>
+</ul>
+
+<input type="text"  placeholder="Enter name" [(ngModel)]="inputValue"/>
+<div>the name entered is {{inputValue}}</div>
